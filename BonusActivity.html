@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bonus Activty: Build a Responsive Card Layout</title>
+  <style>
+
+    .deck {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .card1, .card2, .card3 {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+      h2, p {
+        text-align: center;
+      }
+      width: 200px;
+      height: 300px;
+    }
+    .card1 {
+      padding: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin: 20px;
+      border: 3px solid teal;
+      border-radius: 10px;
+      background-color: cadetblue;
+    }
+    .card2 {
+      padding: 30px;
+      padding-left: 40px;
+      padding-right: 40px;
+      margin: 20px;
+      border: 3px solid navy;
+      border-radius: 10px;
+      background-color: rgb(145, 145, 224);
+    }
+    .card3 {
+      padding-top: 20px;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-bottom: 60px;
+      margin: 10px;
+      border: 4px solid rgb(11, 11, 83);
+      border-radius: 10px;
+      background-color: rgb(81, 126, 209);
+    }
+    
+  </style>
+</head>
+<body>
+
+<div class="deck">
+  <div class="card1">
+    <h2>Rivers</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur 
+        adipisicing elit. Debitis odio quasi 
+        reiciendis eum fuga quis ratione sed 
+        assumenda aliquam nobis!
+    </p>
+    <img src="Colorado-River-AZ_1536x1023.jpg" alt="Colorado River"
+        width="200" height="100">
+  </div> 
+
+  <div class="card2">
+    <h2>Lakes</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur
+         adipisicing elit. Itaque necessitatibus
+          deserunt distinctio aliquid rerum libero
+           magni et quod dicta molestiae.
+    </p>
+    <img src="Glacier-Lake-Moiraine.jpg" alt="Glacier Lake"
+        width="200" height="100">
+  </div>
+
+  <div class="card3">
+    <h2>Oceans</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur
+         adipisicing elit. Tempora culpa nihil,
+          temporibus ex consectetur maxime beatae
+           nam ullam eveniet aliquam.
+    </p>
+    <img src="Ocean.jpg" alt="Beach" 
+        width="200" height="100">
+  </div>
+</div>
+
+</body>
+</html>
